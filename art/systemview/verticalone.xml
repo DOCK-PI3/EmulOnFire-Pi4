@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <include>./vertical.xml</include>
+  <view name="system">
+    <carousel name="systemcarousel">
+      <maxLogoCount>1</maxLogoCount>
+      <type>horizontal</type>
+      <defaultTransition>slide</defaultTransition>
+      <pos>0.32 -0.38</pos>
+      <size>0.34 1.435</size>
+      <color>00000000</color>
+      <colorEnd>00000000</colorEnd>
+    </carousel>
+	
+    <image name="box" extra="true">
+      <pos>0.34 0.425</pos>
+      <maxSize>0.40 0.55</maxSize>
+    </image>
+    <video name="videobox" extra="true">
+      <size>0.42 0.555</size>
+	  <pos>0.34 0.405</pos>
+      <maxSize>0.50 0.65</maxSize>
+    </video>
+
+    <text name="systemInfo">
+      <pos>0.33 0.71</pos>
+      <size>0.34 0.25</size>
+    </text>
+
+    <image name="CenterFade" extra="true">
+      <tile>false</tile>
+      <pos>0 0</pos>
+      <size>2 1</size>
+      <origin>0 0</origin>
+      <path>./../centerfade.png</path>
+      <color>${centerFadeColor}</color>
+      <visible>true</visible>
+    </image>
+	
+    <image name="CenterFade4" extra="true">
+      <tile>false</tile>
+      <pos>0 0</pos>
+      <size>2.1 1</size>
+      <origin>0 0</origin>
+	  <flipX>true</flipX>
+      <path>./../centerfade.png</path>
+      <color>${centerFadeColor}</color>
+      <visible>true</visible>
+    </image>
+
+    <image name="CenterFade2" extra="true">
+      <tile>false</tile>
+      <pos>0.5 1</pos>
+      <size>1 0.25</size>
+      <origin>0.5 0.5</origin>
+      <path>./../centerfade_v.png</path>
+      <color>${centerFadeColor}</color>
+      <visible>true</visible>
+    </image>
+	
+	<image name="CenterFade3" extra="true">
+      <tile>false</tile>
+      <pos>0.5 0</pos>
+      <size>1 0.25</size>
+      <origin>0.5 0.5</origin>
+      <path>./../centerfade_v.png</path>
+      <color>${centerFadeColor}</color>
+      <visible>true</visible>
+    </image>
+	
+	<image name="darkwheel" extra="static">
+      <tile>false</tile>
+      <pos>-0.05 -0.07</pos>
+      <size>1.2 1.2</size>
+      <origin>0 0</origin>
+	  <color>00FFFF80</color>
+      <path>./../darkwheel.png</path> 
+      <zIndex>12</zIndex>
+    </image>
+
+  </view>
+</theme>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  
+  <view name="system">
+
+    <!-- When random box -->
+    <image name="box" extra="true">
+      <pos>0.385 0.45</pos>
+      <maxSize>0.40 0.55</maxSize>
+    </image>   
+
+    <video name="videobox" extra="true">
+      <pos>0.385 0.45</pos>
+      <maxSize>0.40 0.55</maxSize>
+    </video>   
+
+   <image name="logo">
+      <!-- if system2 exists, take this version -->
+      <path>./../../art/logosonfire/${system.theme}.png</path>
+    </image>
+
+	<image name="background" extra="static">
+      <tile>false</tile>
+      <path>${backgroundImage_B}</path>      
+      <color>${backgroundColor}</color>
+    </image>
+    
+    <carousel name="systemcarousel">
+      <type>vertical</type>
+      <pos>0 0</pos>
+      <size>0.42 0.935</size>
+      
+      <pos>0 -0.25</pos>
+      <size>0.42 1.435</size>
+      
+      <color>00000000</color>
+      <colorEnd>00000000</colorEnd>
+      <gradientType>horizontal</gradientType>
+      <logoScale>1.8</logoScale>
+      <logoSize>0.15 0.12</logoSize>
+      <maxLogoCount>7</maxLogoCount>
+      <systemInfoDelay>0</systemInfoDelay>      
+     </carousel>
+
+    <text name="systemInfo">
+	<!-- <origin>0 0</origin> -->
+      <pos>0.34 0.735</pos>
+      <size>1 0.25</size>
+      <backgroundColor>0000FF00</backgroundColor>
+      <color>${systemInfoColor}</color>
+      <glowColor>${glowColor}</glowColor>
+      <glowSize>2</glowSize>
+      <reflexion>0.1 0.0</reflexion>
+    </text>
+    <image name="CenterFade" extra="true">
+      <tile>false</tile>
+      <size>0.40 1</size>
+      <pos>0.40 1</pos>
+      <origin>1 1</origin>
+      <path>./../centerfade_v.png</path>
+      <color>${centerFadeColor}</color>
+      <visible>false</visible>
+    </image>
+    <image name="ControllerOverlay" extra="true">
+      <tile>false</tile>
+      <pos>0.675 0.40</pos>
+      <size>0.4 0</size>
+    </image>
+
+  </view>
+</theme>

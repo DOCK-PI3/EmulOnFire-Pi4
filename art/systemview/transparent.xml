@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <view name="system">
+    <image name="box" extra="true">
+      <pos>0.342 0.075</pos>
+      <maxSize>0.40 0.55</maxSize>
+    </image> 
+      <video name="videobox" extra="true">
+      <origin>0 0</origin>
+	  <pos>0.342 0.075</pos>
+    </video>
+    <carousel name="systemcarousel">
+      <color>FAFAFF00</color>
+      <colorEnd>FAFAFF00</colorEnd>
+      <systemInfoDelay>300</systemInfoDelay>
+      <size>1 0.2325</size>
+      <zIndex>20</zIndex>
+      <pos>0 0.49</pos>
+      <size>1 0.3925</size>
+      <origin>0 0</origin>
+      <logoPos>-1 0.02</logoPos>
+    </carousel>
+    <image name="logo">
+      <!-- if system2 exists, take this version -->
+      <path>./../../art/logosonfire/${system.theme}.png</path>
+      <reflexion>0.14 0.0</reflexion>
+      <!-- <reflexionOnFrame>true</reflexionOnFrame> -->
+    </image>
+	
+	<image name="background" extra="static">
+      <tile>false</tile>
+      <path>${backgroundImage_B}</path>      
+      <color>${backgroundColor}</color>
+    </image>
+	
+	<!-- efecto de degradado -->
+<!--     <image name="CenterFade" extra="true">
+      <tile>false</tile>
+      <pos>0.5 0.5</pos>
+      <size>1 0.8</size>      
+      <origin>0.5 0.5</origin>
+      <path>./../centerfade.png</path>
+      <color>${centerFadeColor}</color>
+      <zIndex>12</zIndex>
+    </image> -->
+    <text name="systemInfo">
+      <pos>0 0.72</pos>
+      <size>1 0.25</size>
+      <backgroundColor>0000FF00</backgroundColor>
+      <color>${systemInfoColor}</color>
+      <glowColor>${glowColor}</glowColor>
+      <glowSize>2</glowSize>
+      <fontSize>0.053</fontSize>
+	  <fontPath>./art/Halo3.ttf</fontPath>
+	  <reflexion>0.17 0.0</reflexion>
+    </text>
+    <image name="carousel-inner" extra="true">
+      <visible>false</visible>
+    </image>
+    <image name="carousel-shadow" extra="true">
+      <visible>false</visible>
+    </image>
+  </view>
+</theme>

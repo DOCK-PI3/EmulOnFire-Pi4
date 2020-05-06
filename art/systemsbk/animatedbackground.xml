@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <view name="system">
+    <video name="staticBackgroundVideo">
+      <size>1 1</size>
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+	  <color>${systemInfoColor}</color>
+      <glowColor>${glowColor}</glowColor>
+      <glowSize>2</glowSize>
+      <path>./../bg_retrodockpi3.mp4</path>
+      <zIndex>5</zIndex>
+    </video>
+  </view>
+</theme>

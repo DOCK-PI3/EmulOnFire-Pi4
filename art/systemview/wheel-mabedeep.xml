@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <include>./animatedbackgroundsubset.xml</include>
+  <variables>
+	<mconsolaswheel>0.008 0.485</mconsolaswheel>
+  </variables>
+  <view name="system">
+    <image name="box" extra="true">
+      <pos>0.275 0.245</pos>
+      <maxSize>0.40 0.55</maxSize>
+    </image>
+    <video name="videobox" extra="true">
+      	  <size>0.42 0.54</size>
+	  <pos>0.275 0.245</pos>
+      <maxSize>0.50 0.65</maxSize>
+    </video>
+	<!-- if system2 exists, take this version -->
+    <image name="logo">
+      <path>./../../art/logosonfire/${system.theme}.png</path>
+    </image>
+	
+	<image name="background" extra="static">
+      <tile>false</tile>
+      <path>${backgroundImage_B}</path>      
+      <color>${backgroundColor}</color>
+    </image>
+	
+    <carousel name="systemcarousel">
+        <type>vertical_wheel</type>
+		<pos>0 -0.015</pos>
+        <size>1 1</size>
+        <logoScale>1.1</logoScale>
+        <logoSize>0.25 0.15</logoSize>
+        <color>00000000</color>
+        <maxLogoCount>5</maxLogoCount>
+        <logoRotation>7.5</logoRotation>
+		<logoRotationOrigin>5.0 -0.5</logoRotationOrigin>
+		<logoAlignment>right</logoAlignment>
+        <zIndex>43</zIndex>	 
+	</carousel>
+
+<!--    <image name="darkwheel" extra="static">
+      <tile>false</tile>
+      <pos>0.22 0.25</pos>        
+      <size>0.43 0.36</size>
+      <origin>0.5 0.5</origin>
+      <path>./../darkwheel.png</path>      
+      <zIndex>12</zIndex>
+    </image> -->
+   
+   
+   <image name="background" extra="static">
+      <path>${backgroundImage_C}</path>
+    </image>
+
+
+    <text name="systemInfo">
+      <pos>-0.05 0.685</pos>
+      <size>1 0.25</size>
+      <backgroundColor>0000FF00</backgroundColor>
+      <color>${systemInfoColor}</color>
+      <glowColor>${glowColor}</glowColor>
+      <glowSize>2</glowSize>
+      <reflexion>0.15 0.0</reflexion>
+    </text>
+<!--     <image name="CenterFade" extra="true">
+      <tile>false</tile>
+      <size>0.40 1</size>
+      <pos>0.2 1</pos>
+      <origin>1 1</origin>
+      <path>./../centerfade_v.png</path>
+      <color>${centerFadeColor}</color>
+      <zIndex>11</zIndex>
+    </image> -->
+    <image name="ControllerOverlay" extra="true">
+      <tile>false</tile>
+	  <pos>0.0005 0.40</pos>
+      <size>0.40 0</size>
+    </image>
+
+
+  </view>
+</theme>

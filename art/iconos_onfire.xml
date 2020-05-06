@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+ <view name="menu">
+    <menuIcons name="menuicons">
+      <iconKodi>./art/icons2/Kodi.png</iconKodi>
+      <iconSystem>./art/icons2/System.png</iconSystem>
+      <iconUpdates>./art/icons2/Updates.png</iconUpdates>
+      <iconGames>./art/icons2/Games.png</iconGames>
+      <iconControllers>./art/icons2/Controllers.png</iconControllers>
+      <iconUI>./art/icons2/UI.png</iconUI>
+      <iconSound>./art/icons2/Sound.png</iconSound>
+      <iconNetwork>./art/icons2/Network.png</iconNetwork>
+      <iconScraper>./art/icons2/Scraper.png</iconScraper>
+      <iconAdvanced>./art/icons2/Advanced.png</iconAdvanced>
+      <iconQuit>./art/icons2/Quit.png</iconQuit>
+      <iconRestart>./art/icons2/Restart.png</iconRestart>
+      <iconShutdown>./art/icons2/Shutdown.png</iconShutdown>
+      <iconFastShutdown>./art/icons2/Fastshutdown.png</iconFastShutdown>
+      <iconRetroachievements>./art/icons2/Contest.png</iconRetroachievements>
+    </menuIcons>
+  </view>
+  
+  	<view name="menu, system, basic, detailed, grid">
+		<helpsystem name="help">
+			<iconColor>FFFFFFFF</iconColor>
+			<iconUpDown>./art/iconsets/psx/updown.png</iconUpDown>
+			<iconLeftRight>./art/iconsets/psx/leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./art/iconsets/psx/all.png</iconUpDownLeftRight>
+			<iconA>./art/iconsets/psx/a.png</iconA>
+			<iconB>./art/iconsets/psx/b.png</iconB>
+			<iconX>./art/iconsets/psx/x.png</iconX>
+			<iconY>./art/iconsets/psx/y.png</iconY>
+			<iconL>./art/iconsets/psx/l.png</iconL>
+			<iconR>./art/iconsets/psx/r.png</iconR>
+			<iconStart>./art/iconsets/psx/start.png</iconStart>
+			<iconSelect>./art/iconsets/psx/select.png</iconSelect>
+		</helpsystem>		
+	</view>
+  
+</theme>

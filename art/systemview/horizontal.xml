@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+   
+  <view name="system">
+    <image name="box" extra="true">
+      <pos>0.34 0.315</pos>
+      <maxSize>0.40 0.55</maxSize>
+    </image>
+      <video name="videobox" extra="true">
+      <origin>0 0</origin>
+	  <pos>0.34 0.315</pos>
+	  <maxSize>0.40 0.55</maxSize>
+    </video> 
+
+    <image name="logo">
+      <!-- if system2 exists, take this version -->
+      <path>./../../art/logosonfire/${system.theme}.png</path>
+      <!-- <reflexion>0.12 0.0</reflexion> -->
+      <!-- <reflexionOnFrame>true</reflexionOnFrame> -->
+    </image>
+
+	<image name="background" extra="static">
+      <tile>false</tile>
+      <path>${backgroundImage_C}</path>      
+      <color>${backgroundColor}</color>
+    </image>
+	
+    <carousel name="systemcarousel">
+      <color>FAFAFFA0</color>
+      <colorEnd>FAFAFFD0</colorEnd>
+      <systemInfoDelay>700</systemInfoDelay>
+      <pos>0 0.3837</pos>
+      <size>1 0.2325</size>
+      <zIndex>20</zIndex>
+    </carousel>
+    <image name="carousel-inner" extra="true">
+      <path>./../carousel.png</path>
+      <color>FFFFFFFF</color>
+      <origin>0 0</origin>
+      <pos>0 0.3837</pos>
+      <size>1 0.2325</size>
+      <zIndex>40</zIndex>
+    </image>
+    <text name="systemInfo">
+      <pos>0 0.64</pos>
+      <size>1 0.25</size>
+      <backgroundColor>0000FF00</backgroundColor>
+      <color>${systemInfoColor}</color>
+      <glowColor>${glowColor}</glowColor>
+      <glowSize>2</glowSize>
+      <reflexion>0.20 0.0</reflexion>
+    </text>
+    <image name="carousel-shadow" extra="true">
+      <path>./../shadow.png</path>
+      <color>FFFFFF40</color>
+      <pos>0 0.6162</pos>
+      <origin>0 0</origin>
+      <size>1 0.025</size>
+      <zIndex>13</zIndex>
+    </image>
+    <image name="CenterFade" extra="true">
+      <tile>false</tile>
+      <size>1 0.5</size>
+      <pos>0.5 0.5</pos>
+      <origin>0.5 0.5</origin>
+      <path>./../centerfade.png</path>
+      <color>${centerFadeColor}</color>      
+      <zIndex>12</zIndex>
+    </image>
+  </view>
+</theme>

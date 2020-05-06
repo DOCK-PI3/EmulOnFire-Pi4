@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>4</formatVersion>
+  <view name="system">
+    <image name="box" extra="true">
+      <pos>0.275 0.745</pos>
+      <maxSize>0.40 0.55</maxSize>
+    </image>
+    <video name="videobox" extra="true">
+      	  <size>0.42 0.53</size>
+	  <pos>0.34 0.045</pos>
+      <maxSize>0.50 0.65</maxSize>
+	  <zIndex>8</zIndex>
+    </video>
+	<!-- if system2 exists, take this version -->
+    <image name="logo">
+      <path>./../../art/logosonfire/${system.theme}.png</path>
+    </image>
+	
+	<image name="background" extra="static">
+      <tile>false</tile>
+      <path>${backgroundImage_B}</path>      
+      <color>${backgroundColor}</color>
+    </image>
+	
+<!-- <image name="CenterFade" extra="true">
+      <tile>false</tile>
+      <size>1 0.5</size>
+      <pos>0.5 0.5</pos>
+      <origin>0.5 0.5</origin>
+      <path>./../centerfade.png</path>
+      <color>${centerFadeColor}</color>
+      <zIndex>12</zIndex>
+    </image>  -->
+  </view>
+</theme>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+## ORIGINAL THEME ##
+Theme: Carbon
+version: 2.0
+author: Eric Hettervik (Rookervik)
+license: creative commons CC-BY-NC-SA
+originally based on: "simple" by nils bonenberger
+
+## EDITADO POR DOCK-PI3 ##
+Theme: EmulOnFire-Pi4
+version: 3.0
+author: Mabe (mabedeep), (DOCK-PI3)
+license: creative commons CC-BY-NC-SA
+originally based on: "Carbon" by Eric Hettervik (Rookervik)
+-->
+<theme>
+  <formatVersion>7</formatVersion>
+  <view name="splash">
+
+    <splash name="splash">
+      <backgroundColor>202020FF</backgroundColor>
+    </splash>
+   
+    <image name="progressbar">
+      <color>505050FF</color>
+	  <pos>0.25 0.728</pos>
+	  <origin>0 0</origin>
+    </image>
+    
+    <image name="progressbar:active">
+      <color>DFDF60DF</color>
+    </image>
+   
+    <image name="background">
+      <size>1 1</size>
+	  <pos>0 0</pos>
+      <origin>0 0</origin>
+	  <path>./art/onfireSplash.png</path>
+    </image>
+
+    <text name="label">
+      <fontPath>./art/Cabin-Bold.ttf</fontPath>
+      <color>9FDF60</color>
+	  <pos>0.01 0.67</pos>
+	  <origin>0 0</origin>
+      <forceUppercase>true</forceUppercase>
+    </text>
+
+  </view>
+</theme>
